@@ -1,0 +1,70 @@
+
+.form-style{
+    font-family: Roboto;
+    padding: 2% 6% 5% 5%;
+}
+
+.form-style input[type="text"],
+.form-style input[type="date"],
+.form-style input[type="datetime"],
+.form-style input[type="email"],
+.form-style input[type="number"],
+.form-style input[type="search"],
+.form-style input[type="time"],
+.form-style input[type="url"],
+.form-style input[type="password"],
+.form-style textarea,
+.form-style select  {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+}
+
+.form-style input[type="text"]:focus,
+.form-style input[type="date"]:focus,
+.form-style input[type="datetime"]:focus,
+.form-style input[type="email"]:focus,
+.form-style input[type="number"]:focus,
+.form-style input[type="search"]:focus,
+.form-style input[type="time"]:focus,
+.form-style input[type="url"]:focus,
+.form-style input[type="password"]:focus,
+.form-style textarea:focus,
+.form-style select:focus {
+    border-bottom: thick solid #097af1;
+    border-bottom-width: 1px;
+}
+
+.form-style textarea{
+    resize:none;
+    height: 150px;
+}
+
+.form-style input[type="button"], 
+.form-style input[type="submit"]{
+    background-color: rgb(63, 81, 181);
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-transform: uppercase;
+    border: none;        
+}
+.form-style input[type="button"]:hover, 
+.form-style input[type="submit"]:hover {
+    background-color: black;
+    border-bottom-width: 1px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+

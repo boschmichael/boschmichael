@@ -1,0 +1,230 @@
+<!DOCTYPE html> 
+<html>
+
+	<head>
+		<title>Michael Bosch</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/form.css">
+		<link rel="stylesheet" type="text/css" href="css/move_to_top.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<nav class="header_nav">
+				<ul>
+					<li class="first">
+						<a href="#home">Michael Bosch</a>
+					</li>
+					<li>
+						<a href="#about_me">About me</a>
+					</li>
+					<li>
+						<a href="#projects">Projects</a>
+					</li>
+					<li>
+						<a href="#contact">Contact</a>
+					</li>
+					<li>
+						<a href="#imprint">Imprint</a>
+					</li>
+  				    <li class="icon">
+				    	<a href="javascript:void(0);" style="font-size:15px;" onclick="menuIconClick()">☰</a>
+				  	</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="main_content"> 
+
+			<section id="home">
+				<div class="home_background responsive_image">
+					<div class="home_content"> 
+						<div class="wrapper_image center_vertical">
+							<img class="logo" src="images/logo.png" alt="logo von michael bosch">
+						</div>						
+					</div>
+				</div>
+			</section>
+
+			<section id="about_me">
+				<div class="category_head"> 
+					About me
+				</div>
+
+				<div class="about_me_background responsive_image">
+					<div class="about_me_content center_vertical">
+						<div class="about_me_text">
+							<p> Hi, </p>
+
+							<p> mein Name ist Michael und ich freue mich Dich auf meiner Webseite begrüßen zu dürfen. </p>
+
+							<p> Zurzeit studiere ich Medien und Kommunikationsinformatik an der Hochschule Karlsruhe. Neben meinem Studium habe ich jedoch zahlreiche interessante Projekte am Laufen. </p>
+
+							<p> Du kannst dich hier auch gerne selbst davon überzeugen. </p>
+
+							<p> Falls Du Wünsche oder Verbesserungsvorschläge hast, würde ich mich über eine Nachricht sehr freuen. </p>
+
+							Peace, <br>
+							Michael 
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="projects">
+				<div class="category_head"> 
+					Projects
+				</div>
+
+				<div class="project_content_background">
+
+					<div class="project1">
+						<div class="left text_container project1_text"> 
+							<h1>SPRITKOSTENRECHNER</h1>
+							<br>
+							<p>Eine App mit der Du einfach und schnell deine Spritkosten berechnen kannst.</p>
+							<br>
+							<p>Überzeug dich selbst! Scanne den QR-Code ab, um den Spritkostenrechner aus dem Google Playstore herunterzuladen.</p>
+							<br>
+							<img src="images/qr_code_fuel_costs.jpeg" class="qr_code">
+							<a href="https://play.google.com/store/apps/details?id=com.michaelbosch.fuelcalculator"><img src="images/google_play.png" class="play_image"></a>
+							<br>
+						</div>
+
+						<div class="project1_images responsive_image_simple">
+							<div class="device1 certain_image"></div>
+							<div class="device2 certain_image"></div>
+						</div>
+					</div>
+
+					<div class="project2">
+						<div class="left_60">
+							<div class="responsive_image project2_background">  </div>
+						</div>
+
+						<div class="right_40">
+							<div class="project2_text text_container">
+								<h1>DRUNKEN RUSSIAN</h1>
+								<br>
+								<p>Hol Dir das lustige Geschicklichkeitsspiel auf dein Android Smartphone.</p>
+								<br>
+								<p>Überzeug dich selbst! Scanne ganz einfach den QR-Code ab, um das Spiel kostenlos aus dem Playstore herunterzuladen.</p>
+								<br>
+								<img src="images/qr_code_drunken_russian.jpeg" class="qr_code">
+								<a href="https://play.google.com/store/apps/details?id=com.michaelbosch.drunken_russian"><img src="images/google_play.png" class="play_image"></a>
+								<br>
+							</div>
+						</div>					
+					</div>
+
+					<div class="project3">
+						<div class="left text_container project3_text"> 
+							<h1>SIMPLE FITNESS</h1>
+							<br>
+							<p>Mit Simple Fitness brauchst du nicht mehr Mühsam  deine Trainingserfolge aufzuschreiben. </p>
+							<br>
+							<p>Simple Fitness ist als umfangreiches Trainingstagebuch der perfekte Begleiter zum Protokollieren Deiner Sportaktivitäten.</p>
+							<br>
+							<p>QR-Code scannen und Simple Fitness kostenlos aus dem Playstore herunterladen.</p>
+							<br>
+							<img src="images/qr_code_drunken_russian.jpeg" class="qr_code">
+							<a href="#"><img src="images/google_play.png" class="play_image"></a>
+							<br>
+						</div>
+						
+						<div class="project3_background responsive_image_simple">
+						</div>
+
+					</div>
+				</div>
+			</section>
+			
+			<section id="contact">
+				<div class="category_head"> 
+					Contact
+				</div>
+
+				<div class="form-style">
+				  <h1>Hast Du Verbesserungsvorschläge oder Wünsche? </h1>
+				  <h1>Einfach kontaktieren.</h1>
+				  <form>
+				    <input type="text" name="field1" placeholder="Full Name" />
+				    <input type="email" name="field2" placeholder="Email" />
+				    <br>
+				    <textarea placeholder="Message"></textarea>
+				    <br>
+				    <div class="right_text">
+						<input type="button" value="Send Message" />
+				    </div>
+				    
+				  </form>
+				</div>
+			</section>
+
+			<section id="imprint">
+				<div class="category_head"> 
+					Imprint
+				</div>
+				<div class="imprint_text"> 	
+
+					<h1>Legal Disclosure</h1>
+					
+					<p> Information in accordance with section 5 TMG </p>
+					Mustermann, Muster <br>
+					Musterstr. 25 <br>
+					7667 gr<br>
+					
+					<h2>Contact</h2> 
+					E-Mail: <a href="mailto:mail@boschmichael.de">mail@boschmichael.de</a>  
+
+					<br>
+					
+					<h2>Indication of source for images and graphics</h2>
+					
+					-<a href="https://www.pexels.com/">https://www.pexels.com/</a>
+
+					<h2>Disclaimer</h2>
+					<p> Accountability for content </p>
+					<p> 
+						The contents of our pages have been created with the utmost care. However, we cannot guarantee the contents' accuracy, completeness or topicality. According to statutory provisions, we are furthermore responsible for our own content on these web pages. In this context, please note that we are accordingly not obliged to monitor merely the transmitted or saved information of third parties, or investigate circumstances pointing to illegal activity. Our obligations to remove or block the use of information under generally applicable laws remain unaffected by this as per &sect;&sect; 8 to 10 of the Telemedia Act (TMG).
+					</p>
+
+					<p> Accountability for links </p>
+					<p> 
+						Responsibility for the content of external links (to web pages of third parties) lies solely with the operators of the linked pages. No violations were evident to us at the time of linking. Should any legal infringement become known to us, we will remove the respective link immediately. 
+					</p>
+					
+					<p> Copyright </p>
+					<p> 
+						Our web pages and their contents are subject to German copyright law. Unless expressly permitted by law (&sect; 44a et seq. of the copyright law), every form of utilizing, reproducing or processing works subject to copyright protection on our web pages requires the prior consent of the respective owner of the rights. Individual reproductions of a work are allowed only for private use, so must not serve either directly or indirectly for earnings. Unauthorized utilization of copyrighted works is punishable (&sect; 106 of the copyright law).
+					</p>
+
+					<p>-<a href="https://www.e-recht24.de/" target="#">https://www.e-recht24.de/</a> </p>
+					<br>
+				</div>
+			</section>
+		</section>
+		
+		<footer>
+			
+			<div class="center">
+				<a href="https://play.google.com/store/apps/developer?id=Michael+Bosch"> <img src="images/social_media_ps.png" class="social_media_icon"> </a>
+				<a href="#"> <img src="images/social_media_fb.png" class="social_media_icon"> </a>				
+				<a href="#"> <img src="images/social_media_gp.png" class="social_media_icon"> </a>
+				
+			</div>
+			
+			<div class="center">
+				<img src="images/logo_white.png" class="footer_logo">
+			</div>
+
+		</footer>
+		
+		<script type="text/javascript" src="js/MoveToTop.js"></script>		
+		<script type="text/javascript" src="js/OnClickEvents.js"></script>
+	</body>
+
+</html>
