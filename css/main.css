@@ -308,6 +308,7 @@ h1{
 @media only screen and (max-width: 609px) {
 
 	/* navigation header on smartphone*/
+
 	.header_nav{
 		display: table;
 	    margin: initial;
@@ -316,6 +317,10 @@ h1{
 
 	.first{
 	    padding-right: 0;
+	}
+
+	h1{
+	    font-size: 1.17em;
 	}
 
 	nav ul li:not(:first-child) {
