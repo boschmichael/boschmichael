@@ -3,11 +3,12 @@
 	 position: fixed;
 	 bottom:20px;
 	 right:20px;
-	 
+	 width: 50px;
+	 height: 50px;
+ 	
+ 	background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
 
-	 width: 0; 
-	 height: 0; 
-	 border-left: 25px solid transparent;
-	 border-right: 25px solid transparent;
-	 border-bottom: 50px solid #4cf119;
+	background-image: url("../images/move_up.png");
 }
